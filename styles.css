@@ -1,4 +1,39 @@
 @charset "UTF-8";
+/*
+section{
+  border: 2px dashed steelblue;
+  padding: 2em;
+  margin: 5em auto;
+  width: 400px;
+  height: 440px;
+}
+*/
+.img-Hero {
+  position: relative;
+  height: 400px;
+  z-index: 10;
+}
+
+.fondo {
+  position: absolute;
+  border-radius: 150px;
+  top: 250px;
+  left: 900px;
+  font-size: 2.8em;
+  font-weight: bold;
+  line-height: 100px;
+  padding: 0.5em;
+  text-align: center;
+  background: hsl(232, 70%, 60%);
+  width: 600px;
+  height: 300px;
+  z-index: 5;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 /* Create your own map
 $custom-colors: (
   "custom-color": rgb(255, 81, 12)

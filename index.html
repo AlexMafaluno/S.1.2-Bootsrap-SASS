@@ -39,28 +39,32 @@
 </nav>
 
 <!--Hero-->
-<div class="container-xl ">
-    <div class="row align-items-center mt-5">
-        <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6">
+<div class="container-xl">
+    <div class="row align-items-center my-5">
+        <div class="col-sm-12 col-md-6 col-ls-4 order-lg-2 col-xl-6 ">
           <div class="card-body">
-            <h3 class="card-title">A Simple Bookmark Manager</h3> <br>
+            <img class="img-Hero" src="./Imagenes/illustration-hero.svg" class="img-fluid" />
+              <div class="fondo">
+              </div>
+          </div>
+        </div>
+        <div class=" col-sm-12 col-md-6 col-ls-4 order-lg-1 col-xl-6 mx-sm-auto ">
+          <div class="card-body">
+            <h3 class="card-title mb-4">A Simple Bookmark Manager</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, repudiandae?</p>
-            <button type="button" class="btn btn-primary ">Get it on Chrome</button>
-            <button type="button" class="btn btn-light">Get it on Firefox</button>
+            <button type="button" class="btn btn-primary mx-2">Get it on Chrome</button>
+            <button type="button" class="btn btn-light border-0 shadow">Get it on Firefox</button>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6">
-          <div class="card-body">
-            <img src="./Imagenes/illustration-hero.svg" class="img-fluid" />
-          </div>
-        </div>
+        
+        
     </div>
   </div>
 
   <!--Features-->
-<div class="container-fluid">
+<div class="container-xl">
   <div class="row text-center">
-    <div class="col-sm-12 col-xl-6 mx-auto">
+     <div class="col-sm-12 col-xl-6 mx-auto">
       <div class="card-shadow">
         <div class="card-body">
           <h3 class="card-title">Features</h3> <br>
@@ -68,30 +72,75 @@
             Amet minima architecto porro dolor nobis placeat nemo sapiente aliquid repellat ad?</p>
       </div>
     </div>
-  </div>
-  <div class=" col-sm-12 col-xl-7 mx-auto">
-    <ul class="nav nav-tabs justify-content-center mb-5">
-      <li class="nav-item "><a class="nav-link active" aria-current="page" href="#">Simple Bookmarking</a></li>
-      <li class="nav-item "><a class="nav-link" href="#">Speedy Searching</a></li>
-      <li class="nav-item "><a class="nav-link" href="#">Easy Sharing</a></li>
-    </ul>
-  </div>
-  <div class="row align-items-center mb-5">
-    <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6">
-      <div class="card-body">
-        <img src="./Imagenes/illustration-features-tab-1.svg" class="img-fluid"/>
-      </div>
     </div>
-    <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6">
-        <div class="card-body">
-          <h2 class="card-title">Bookmark in one click</h2><br>
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Perferendis earum tempore ipsa harum explicabo necessitatibus ea,
-             quisquam totam veniam, amet distinctio natus aliquam minus? Eos maiores corrupti similique quibusdam quo?</p> 
+    <div class=" col-sm-12 col-xl-12 mx-auto my-5">
+   
+     <div role="tabpanel">
+      <ul class="nav nav-tabs justify-content-center" role="tablist">
+        <li role="presentation" class="nav-item active"><a href="#seccion1" aria-controls="seccion1" data-bs-toggle="tab" role="tab">Simple Bookmarking</a></li>
+        <li role="presentation" class="nav-item"><a href="#seccion2" aria-controls="seccion2" data-bs-toggle="tab" role="tab">Speedy Searching</a></li>
+        <li role="presentation" class="nav-item"><a href="#seccion3" aria-controls="seccion3" data-bs-toggle="tab" role="tab">Easy Sharing</a></li>
+      </ul>
+  
+
+      <div class= "tab-content">
+          <div role="tabpanel" class="tab-pane active" id="seccion1">
+       <div class="row align-items-center my-5">
+        <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6">
+          <div class="card-body">
+            <img src="./Imagenes/illustration-features-tab-1.svg" class="img-fluid"/>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6 mt-5">
+          <div class="card-body">
+            <h2 class="card-title">Bookmark in one click</h2><br>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Perferendis earum tempore ipsa harum explicabo necessitatibus ea,
+              quisquam totam veniam, amet distinctio natus aliquam minus? Eos maiores corrupti similique quibusdam quo?</p> 
              <button type="button" class="btn btn-primary ">More Info</button>
         </div>
       </div>
+      </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="seccion2">
+      <div class="row align-items-center my-5">
+        <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6">
+          <div class="card-body">
+            <img src="./Imagenes/illustration-features-tab-2.svg" class="img-fluid"/>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6 mt-5">
+        <div class="card-body">
+          <h2 class="card-title">BTOMAAAA</h2><br>
+            <p class="card-text">Lorem, ipsum dolor</p> 
+            <button type="button" class="btn btn-primary ">More Info</button>
+         </div>
+        </div>
+      </div>
+          </div>
+
+          <div role="tabpanel" class=" tab-pane" id="seccion3">
+              <div class="row align-items-center my-5">
+                <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6">
+                  <div class="card-body">
+                    <img src="./Imagenes/illustration-features-tab-3.svg" class="img-fluid"/>
+                  </div>
+                </div>
+              <div class="col-sm-12 col-md-6 col-ls-4 col-xl-6 mt-5">
+                <div class="card-body">
+                  <h2 class="card-title">IEEEEEE</h2><br>
+                  <p class="card-text">Lorrrupti similique quibusdam quo?</p> 
+                  <button type="button" class="btn btn-primary ">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
+
+    </div>
+  </div>
 </div>
 
 <!--Area de descargas-->
@@ -99,7 +148,7 @@
   <div class="row text-center">
     <div class="card-body">
       <div class="card-shadow">
-        <h3 class="card-title"> Download the extension</h3> <br><br>
+        <h3 class="card-title mb-5"> Download the extension</h3> 
         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
           Minima at rerum excepturi et facilis ratione.</p>
       </div>
