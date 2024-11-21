@@ -8,11 +8,10 @@ El ejercicio está orientado a aprender y aplicar conceptos fundamentales de dis
 
 ## Caracteristicas del proyecto
 
-Diseño Responsivo: La Landing Page se adapta perfectamente a dispositivos móviles, tablets y desktops.
-Componentes de Bootstrap: Uso de grillas, botones, formularios y elementos visuales que proporciona Bootstrap.
-Estilo Personalizado: Adición de estilos únicos mediante CSS para darle una identidad diferenciada a la página.
-Uso de Media Queries: Complemento para garantizar el ajuste preciso en resoluciones específicas.
-Optimización UX/UI: Navegación intuitiva y diseño atractivo para captar la atención del usuario.
+-**Diseño Responsivo:** La Landing Page se adapta perfectamente a dispositivos móviles, tablets y desktops.
+-**Componentes de Bootstrap:** Uso de grillas, botones, formularios y elementos visuales que proporciona Bootstrap.
+-**Estilo Personalizado:** Adición de estilos únicos mediante CSS para darle una identidad diferenciada a la página.
+-**Uso de Media Queries:** Complemento para garantizar el ajuste preciso en resoluciones específicas.
 
 
 ## Tecnologías Utilizadas
@@ -34,16 +33,40 @@ Ajustes específicos de diseño para diferentes tamaños de pantalla.
 ## Estructura del Proyecto
 bash
 Copiar código
+```
 ├── /css
 │   └── styles.css   # Archivo de estilos personalizados
+│   └── styles.scss  # Archivo de estilos personalizados SaSS
 ├── /img             # Carpeta de imágenes utilizadas en el proyecto
 ├── /js              # (Opcional) Archivos JavaScript, si se requieren
 ├── index.html       # Archivo principal de la landing page
 └── README.md        # Documentación del proyecto
-
+```
 ## Instalación y Configuración
 Clonar el repositorio:
 
-bash
+```bash
 Copiar código
-git clone 
+git clone https://github.com/AlexMafaluno/S.1.2-Bootsrap-SASS.git
+```
+
+# Visualización en vivo
+
+Para probar la landing page directamente en tu navegador:
+
+Instala la extensión Live Server en Visual Studio Code.
+Haz clic derecho en el archivo index.html y selecciona "Open with Live Server".
+
+# Capturas de Pantalla
+
+## Vista Desktop:
+![image](https://github.com/user-attachments/assets/71b1bc22-4a41-4579-ac17-6e5de652d813)
+![image](https://github.com/user-attachments/assets/a6f7c027-83ea-482e-98e5-e7c7431245f8)
+
+
+## Vista Mobile:
+![image](https://github.com/user-attachments/assets/bde50db8-72e3-4176-97c5-a7d653afe1bd)
+![image](https://github.com/user-attachments/assets/c90150f7-54e5-4739-99a6-052e7f3275fa)
+
+
+
