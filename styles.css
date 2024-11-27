@@ -1,4 +1,67 @@
 @charset "UTF-8";
+.boton-login {
+  background-color: #FA5959;
+  color: black;
+  transition: background-color 0.5s;
+}
+
+button.btn.boton-login:hover {
+  background-color: white !important;
+  color: #FA5959 !important;
+}
+
+.boton-Hero {
+  background-color: #5265E1;
+  color: white;
+  transition: background-color 0.5s;
+}
+
+button.btn.boton-Hero:hover {
+  background-color: white !important;
+  color: #5265E1 !important;
+}
+
+.boton-Hero2 {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s;
+}
+
+button.btn.boton-Hero2:hover {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: 1px solid black !important;
+  background-color: white !important;
+  color: black !important;
+}
+
+.boton-descargas {
+  background-color: #5265E1;
+  color: white;
+  transition: background-color 0.5s;
+}
+
+a.btn.boton-descargas:hover {
+  background-color: white !important;
+  color: #5265E1 !important;
+}
+
+.cambio {
+  color: black;
+}
+
+.cambio:hover {
+  color: #FA5959 !important;
+}
+
+.icono-hover:hover img {
+  filter: invert(28%) sepia(98%) saturate(7475%) hue-rotate(355deg);
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .img-Hero {
   position: relative;
   height: 100%;
@@ -35,10 +98,6 @@
     border-bottom-left-radius: 30%;
   }
 }
-body {
-  overflow-x: hidden;
-}
-
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors

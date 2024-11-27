@@ -6,10 +6,80 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
+
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary
+  
 );
+
+
+//HOVERS
+
+.boton-login{
+  background-color: $secondary;
+  color: black;
+  transition: background-color 0.5s;
+};
+
+button.btn.boton-login:hover{
+  background-color: white !important;
+  color: $secondary !important;
+};
+
+.boton-Hero{
+  background-color: $primary;
+  color: white;
+  transition: background-color 0.5s;
+};
+
+button.btn.boton-Hero:hover{
+  background-color: white !important;
+  color: $primary !important;
+};
+.boton-Hero2{
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s;
+};
+
+button.btn.boton-Hero2:hover{
+  background-color: transparent !important; 
+  box-shadow: none !important;
+  border: 1px solid black !important;
+  background-color: white !important;
+  color: black !important;
+};
+
+.boton-descargas{
+  background-color: $primary;
+  color: white;
+  transition: background-color 0.5s;
+};
+
+a.btn.boton-descargas:hover{
+  background-color: white !important;
+  color: $primary !important;
+};
+
+
+
+.cambio{
+  color: black;
+};
+.cambio:hover{
+  color: $secondary !important;
+};
+
+
+.icono-hover:hover img{
+  filter: invert(28%) sepia(98%) saturate(7475%) hue-rotate(355deg);
+};
+
+
+body{
+  overflow-x: hidden;
+}
 
 .img-Hero{
 
@@ -18,6 +88,7 @@ $theme-colors: (
   width: 100%;
   z-index: 10;
 }
+
 
 .fondo{
   position: absolute;
@@ -31,9 +102,9 @@ $theme-colors: (
   border-top-left-radius: 40%;
   border-bottom-left-radius: 40%;
 
-
-
 }
+
+
 @media only screen and (min-width: 600px) {
   .img-Hero{
     width: 100%;
@@ -51,11 +122,11 @@ $theme-colors: (
     border-top-left-radius: 30%;
   border-bottom-left-radius: 30%;
   }
+   
 }
 
-body{
-  overflow-x: hidden;
-}
+
+
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
